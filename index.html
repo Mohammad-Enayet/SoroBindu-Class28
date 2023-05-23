@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Class 22 Template Design</title>
+
+    <!-- Google Fonts Link -->
+
+    <!-- Font Awesome Pro v6.4 CDN Link -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+
+    <!-- Bootstrap v5.3 CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main CSS Link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+  </head>
+
+  <body>
+
+    <!-- Header Section Start -->
+    <header class="bg-white sticky-top shadow-sm">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light main-menu">
+          <!-- logo -->
+         
+          <a class="navbar-brand text-black fw-semibold logo-text" href="#">
+            <img src="https://i.ibb.co/0nDVVNv/logo.jpg" alt="" class="img-fluid w-50">
+          </a>
+
+          <!-- responsive icon -->
+
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- main menu -->
+          <div class="navbar-collapse justify-content-end collapse" id="navbarNav" style="">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#price">Service</a>
+              </li>
+              <!-- dropdown menu start -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Blog
+                </a>
+                <!-- dropdown item start -->
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">DropDown 1</a></li>
+                  <li><a class="dropdown-item" href="#">DropDown 2</a></li>
+                  <li><a class="dropdown-item" href="#">DropDown 3</a></li>
+                </ul>
+                <!-- dropdown item end -->
+              </li>
+              <!-- dropdown menu end -->
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Protfolio</a>
+              </li>
+              
+               <!-- dropdown menu start -->
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Pages
+                  </a>
+                  <!-- dropdown item start -->
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Pages 1</a></li>
+                    <li><a class="dropdown-item" href="#">Pages 2</a></li>
+                    <li><a class="dropdown-item" href="#">Pages 3</a></li>
+                  </ul>
+                  <!-- dropdown item end -->
+                </li>
+                <!-- dropdown menu end -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+                           
+              
+            
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Banner Section Start -->
+    <section class="banner-sec main-sec-bg" id="home">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-7">
+              <div class="philip-text-left py-5 mt-5">
+                <h4 class="mb-3 fw-normal mt-5">This is me</h4>
+                <h1>Philip Gillbert</h1>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque inventore quis, ab quod quas veniam, molestiae quibusdam possimus fuga, dicta dolores minus vero id incidunt corporis reprehenderit ex dignissimos voluptatem.</p>
+                <a href="#" style="background: #8490ff;" class="btn text-white fw-bold mt-3 cmn-btn">Discover Now</a>
+              </div>
+            </div>
+
+            <div class="col-md-5">
+              <div class="philip-right-img">
+                <img src="https://i.ibb.co/y0dqCRd/hero-img.webp" class="img-fluid" alt="">
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+    </section>
+    <!-- Banner Section End -->
+
+
+    <!-- About us Section start -->
+    <section class="about-us-sec py-5" id="about">
+        <div class="container">
+          <div class="row">
+
+            <!-- About us Left Img -->
+            <div class="col-md-6">
+              <div class="about-left-img">
+                <div class="card border-0">
+                  <div class="card-body text-center border border-1 rounded">
+                    <img src="https://i.ibb.co/SnbV497/about-img.webp" class="img-fluid w-100" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- About Us Right TExt -->
+            <div class="col-md-6">
+              <div class="about-right-text py-5 mt-3 ms-5">
+                <h3 class="fw-medium">About me</h3>
+                <h1>Personal Detailes</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos ab expedita maxime provident veniam odit? Ullam commodi, ea optio natus nemo repudiandae iste quidem, soluta expedita eaque molestias veniam delectus.</p>
+                <a href="#" style="background: #8490ff;" class="btn btn-primary cmn-btn fw-normal mt-3">View Details</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </section>
+    <!-- About us Section End -->
+
+    <!-- Nuber Counter Section start -->
+    <section style="background: #8490ff;" class="number-counter-sec py-5" id="number">
+        <div class="container">
+          <div class="row py-4">
+
+            <!-- Fist Number -->
+            <div class="col-md-3">
+              <div class="number text-center text-white py-3">
+                <p class="h1 fw-bold">100+</p>
+                <p class="lead mb-0">Happy clients</p>
+              </div>
+            </div>
+
+            <!-- Second Number -->
+            <div class="col-md-3">
+              <div class="number text-center text-white py-3">
+                <p class="h1 fw-bold">50+</p>
+                <p class="lead mb-0">Health Programs</p>
+              </div>
+            </div>
+
+            <!-- Third Number -->
+            <div class="col-md-3">
+              <div class="number text-center text-white py-3">
+                <p class="h1 fw-bold">300+</p>
+                <p class="lead mb-0">Project Completed</p>
+              </div>
+            </div>
+
+            <!-- Fourth Number -->
+            <div class="col-md-3">
+              <div class="number text-center text-white py-3">
+                <p class="h1 fw-bold">80+</p>
+                <p class="lead mb-0">Health Programs</p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+    </section>
+    <!-- Number Counter Section End -->
+
+
+    <!-- Pricing Table Section Start -->
+    <section class="pricing-table-sec py-5 main-sec-bg" id="price">
+      <div class="container">
+        <div class="row">
+
+            <!-- Pricing Table Header -->
+            <div class="col text-center mb-5">
+              <h1 class="mb-3">Start using our app today</h1>
+              <p class="fs-5 text-black">Being Active is important to our health, but how much or what kind of activity do we need?</p>
+            </div>
+
+        </div>
+        
+        
+        <div class="row g-3">
+          
+          <!-- Pricing Table One -->
+          <div class="col-md-4">
+            <div class="card border-0">
+              <div class="card-body shadow-sm rounded text-center">
+
+                <!-- Content -->
+                <div class="pricing-item py-3">
+                  <span style="width: 100px; height: 100px; line-height: 100px;" class="d-block rounded-circle mx-auto bg-light fs-2">01</span>
+                  <h5 class="mb-2 mt-2">Economy</h5>
+                  <p class="mb-5">for the individual</p>
+                  <p class="lead mb-4">Secure Online Transfer</p>
+                  <p class="lead mb-4">Unlimited Styles for interface</p>
+                  <p class="lead mb-5">Reliable Customer Service</p>
+                  
+                  <!-- Button -->
+                  <div class="pricing-btn text-center">
+                  <a href="#" class="btn btn-lg mb-4 btn-outline-primary rounded-1 shadow shadow-sm">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Pricing Table Two -->
+          <div class="col-md-4">
+            <div class="card border-0">
+              <div class="card-body shadow-sm rounded text-center">
+
+                <!-- Content -->
+                <div class="pricing-item py-3">
+                  <span style="width: 100px; height: 100px; line-height: 100px;" class="d-block rounded-circle mx-auto bg-light fs-2">02</span>
+                  <h5 class="mb-2 mt-2">Economy</h5>
+                  <p class="mb-5">for the individual</p>
+                  <p class="lead mb-4">Secure Online Transfer</p>
+                  <p class="lead mb-4">Unlimited Styles for interface</p>
+                  <p class="lead mb-5">Reliable Customer Service</p>
+                  
+                  <!-- Button -->
+                  <div class="pricing-btn text-center">
+                    <a href="#" class="btn btn-lg mb-4 btn-outline-primary rounded-1 shadow shadow-sm">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Pricing Table Three -->
+          <div class="col-md-4">
+            <div class="card border-0">
+              <div class="card-body shadow shadow-sm rounded text-center">
+
+                <!-- Content -->
+                <div class="pricing-item py-3">
+                  <span style="width: 100px; height: 100px; line-height: 100px;" class="d-block rounded-circle mx-auto bg-light fs-2">03</span>
+                  <h5 class="mb-2 mt-2">Economy</h5>
+                  <p class="mb-5">for the individual</p>
+                  <p class="lead mb-4">Secure Online Transfer</p>
+                  <p class="lead mb-4">Unlimited Styles for interface</p>
+                  <p class="lead mb-5">Reliable Customer Service</p>
+                  
+                  <!-- Button -->
+                  <div class="pricing-btn text-center">
+                    <a href="#" class="btn btn-lg mb-4 btn-outline-primary rounded-1 shadow shadow-sm">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!-- Pricing Table Section End -->
+
+    <!-- Team Section Start -->
+    <div class="team-sec py-5" id="team">
+      <div class="container">
+        <div class="row py-3 g-3">
+
+          <!-- Tema Member One -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card mt-5 border-0">
+              <div class="card-body shadow rounded position-relative">
+                <div class="mem-item p-3 text-center">
+
+                  <div class="member-img position-absolute" style="top:-50px; left:20px;" >
+                    <img src="https://i.ibb.co/W2NBXJq/face1.jpg" class="img-fluid" style="width: 100px;" alt="">
+                  </div>
+
+                  <div class="member-content mt-5">
+                    <h3 class="card-title">Jason Doe</h3>
+                    <h4 class="card-subtitle lead mb-4">Programmer</h4>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+
+                  <a href="#" class="btn btn-outline-dark border-0 shadow mt-2">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tema Member Two -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card mt-5 border-0">
+              <div class="card-body shadow rounded position-relative">
+                <div class="mem-item p-3 text-center">
+
+                  <div class="member-img position-absolute" style="top:-50px; left:20px;" >
+                    <img src="https://i.ibb.co/W2NBXJq/face1.jpg" class="img-fluid" style="width: 100px;" alt="">
+                  </div>
+
+                  <div class="member-content mt-5">
+                    <h3 class="card-title">Jason Doe</h3>
+                    <h4 class="card-subtitle lead mb-4">Programmer</h4>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+
+                  <a href="#" class="btn btn-outline-dark border-0 shadow mt-2">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tema Member Three -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card mt-5 border-0">
+              <div class="card-body shadow rounded position-relative">
+                <div class="mem-item p-3 text-center">
+
+                  <div class="member-img position-absolute" style="top:-50px; left:20px;" >
+                    <img src="https://i.ibb.co/W2NBXJq/face1.jpg" class="img-fluid" style="width: 100px;" alt="">
+                  </div>
+
+                  <div class="member-content mt-5">
+                    <h3 class="card-title">Jason Doe</h3>
+                    <h4 class="card-subtitle lead mb-4">Programmer</h4>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+
+                  <a href="#" class="btn btn-outline-dark border-0 shadow mt-2">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tema Member Four -->
+          <div class="col-lg-3 col-md-6 col-sm-6 ">
+            <div class="card mt-5 border-0">
+              <div class="card-body shadow rounded position-relative">
+                <div class="mem-item p-3 text-center">
+
+                  <div class="member-img position-absolute" style="top:-50px; left:20px;" >
+                    <img src="https://i.ibb.co/W2NBXJq/face1.jpg" class="img-fluid" style="width: 100px;" alt="">
+                  </div>
+
+                  <div class="member-content mt-5">
+                    <h3 class="card-title">Jason Doe</h3>
+                    <h4 class="card-subtitle lead mb-4">Programmer</h4>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+
+                  <a href="#" class="btn btn-outline-dark border-0 shadow mt-2">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Team Section End -->
+
+    <!-- Contact Section Start -->
+    <div class="contact-sec py-5 main-sec-bg" id="contact">
+      <div class="container">
+        <div class="row">
+
+          <!-- Contact Header -->
+          <div class="col text-center mb-5">
+            <p class="fs-5 text-black">We need to know you opinion</p>
+            <h1 class="mb-3">Write to us and We will contact you</h1>
+          </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-7">
+          <div class="card border-0">
+            <div class="card-body text-center">
+              <div class="contact-form p-5">
+                <form action="#">
+                  <input type="text" placeholder="E-mail Address" class="form-control form-control-lg mb-3">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <input type="text" placeholder="Name" class="form-control form-control-lg mb-3">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="number" placeholder="Your Phone" class="form-control form-control-lg mb-3">
+                    </div>
+                  </div>
+                  <textarea class="form-control mb-5" placeholder="Message" rows="10"></textarea>
+
+                  <input type="submit" class="btn btn-lg cmn-btn text-white" style="background: #17a2b8;" value="Conact Me">
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-5">
+          <div class="contact-text mt-5 p-5 lead">
+            <h4 class=" mb-4">Get in Touch</h4>
+            <p>Phone Number: +88 01777223837</p>
+            <p>Email: enayetmd590@gmail.com</p>
+            <p>Address: Dhaka</p>
+          </div>
+          
+        </div>
+        
+      </div>
+
+
+      </div>
+    </div>
+    <!-- Contact Section End -->
+
+
+
+    <!-- Footer Section Start -->
+    <footer class="footer-sec py-3 bg-dark text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+
+              <!-- Footer Content -->
+              <div class="footer-content text-center">
+                <p class="mb-0 lead fw-normal">Copywrite &copy; 2021 Designed by LFWF. All Right reserved </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+
+
+    <!-- Bootstrap v5.3 JS CDN link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
